@@ -3,7 +3,7 @@
 Computer Science student @ NTOU. 專注於後端開發與系統架構，目標是寫出效能與維護性兼具的代碼。
 
 ### Tech Stack
-- **Languages:** C/C++ (LeetCode 150+), Python, Node.js
+- **Languages:** C/C++ (LeetCode 150+), Python
 - **Backend:** Firebase (NoSQL), RESTful API Design, SQL
 - **Frontend:** React
 - **Dev Tools:** Git, Linux, AI-assisted development (Cursor/Gemini)
