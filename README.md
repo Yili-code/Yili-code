@@ -1,35 +1,57 @@
-# Hi, I'm Yili 👋
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Yili — Backend, automation, reliable systems" width="100%" />
+</p>
 
-I'm a Computer Science student at NTOU. I mainly work with Python and backend systems, and I like building tools that solve problems I actually run into.
+<p align="center">
+  Computer Science @ NTOU &nbsp;·&nbsp; Backend engineering &nbsp;·&nbsp; Taiwan
+</p>
 
-## Main project
+<p align="center">
+  <a href="https://github.com/Yili-code/Crypto-Flash">Crypto Flash</a> ·
+  <a href="https://github.com/Yili-code/WelfareBridge">WelfareBridge</a> ·
+  <a href="https://github.com/Yili-code/Chronos">Chronos</a> ·
+  <a href="https://github.com/Yili-code/News-Agent">News Agent</a>
+</p>
 
-### [Crypto Flash](https://github.com/Yili-code/Crypto-Flash)
+## About me
 
-Crypto Flash is the project I use and maintain most often. It monitors crypto news, filters out noise, and sends useful updates to Telegram.
+I mainly work with Python and backend systems. Most of my projects start with a problem I have myself, then grow as I run into the less exciting—but important—parts: retries, queues, state, deployment, and tests.
 
-What I have worked on in this project:
+I use AI when it is useful, but I care just as much about what happens when an external service is slow, unavailable, or returns something unexpected.
 
-- keeping the WebSocket connection alive and reconnecting when it drops
-- controlling back-pressure with bounded queues
-- handling Telegram rate limits, retries, and message delivery
-- storing news for search, daily digests, and event timelines
-- running scheduled jobs with GitHub Actions while preserving state
-- testing the core logic without production credentials
+## Featured project · Crypto Flash
+
+> A crypto-news monitor that cuts through noisy feeds and delivers the updates I want to see on Telegram.
+
+[**Crypto Flash**](https://github.com/Yili-code/Crypto-Flash) is the project I use and maintain most often. It is also where I have done most of my work around long-running services and failure recovery.
+
+| Ingestion | Runtime | Delivery |
+| --- | --- | --- |
+| WebSocket reconnects and idle-timeout recovery | Bounded queues and back-pressure control | Telegram throttling and rate-limit retries |
+| News and YouTube feed monitoring | Persistent state across scheduled runs | Search, daily digests, and event timelines |
 
 `Python` `asyncio` `WebSockets` `Telegram Bot API` `GitHub Actions` `pytest`
 
-## Other projects
+**[View the repository →](https://github.com/Yili-code/Crypto-Flash)**
 
-- [WelfareBridge](https://github.com/Yili-code/WelfareBridge) — A service that matches users with public benefits using official-source crawlers and rule-based eligibility checks.
-- [Chronos](https://github.com/Yili-code/Chronos) — A Telegram-first project and task assistant with reminders, repository status, and a small web dashboard.
-- [News Agent](https://github.com/Yili-code/News-Agent) — An RSS news collector that removes duplicate stories and sends a daily Telegram briefing.
+## More things I've built
 
-## Tools I use
+| Project | What I built |
+| --- | --- |
+| **[WelfareBridge](https://github.com/Yili-code/WelfareBridge)** | A full-stack service that matches users with public benefits using official-source crawlers and rule-based eligibility checks. |
+| **[Chronos](https://github.com/Yili-code/Chronos)** | A Telegram-first project and task assistant with reminders, repository status, and a small web dashboard. |
+| **[News Agent](https://github.com/Yili-code/News-Agent)** | An RSS collector that removes duplicate stories and sends a daily Telegram briefing. |
 
-- Python, FastAPI, REST APIs
-- SQLite, MongoDB, Redis
-- Docker, GitHub Actions, Telegram Bot API
-- pytest, unittest, Ruff
+## Toolbox
 
-I care about clear setup instructions, predictable failure handling, and tests that make changes safer. I'm currently preparing for a backend engineering internship and continuing to improve these projects one small, verified change at a time.
+**Backend** &nbsp; `Python` `FastAPI` `REST APIs`  
+**Data** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `SQLite` `MongoDB` `Redis`  
+**Delivery** &nbsp; `Docker` `GitHub Actions` `Telegram Bot API`  
+**Quality** &nbsp;&nbsp;&nbsp; `pytest` `unittest` `Ruff`
+
+---
+
+<p align="center">
+  Currently preparing for a backend engineering internship.<br />
+  I am improving these projects one small, tested change at a time.
+</p>
