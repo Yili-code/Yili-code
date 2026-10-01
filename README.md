@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://yili-builder.yilikimi001.chatgpt.site">Portfolio</a> ·
   <a href="https://github.com/Yili-code/Crypto-Flash">Crypto Flash</a> ·
   <a href="https://github.com/Yili-code/Mnemosyne">Mnemosyne</a> ·
   <a href="https://github.com/Yili-code/News-Agent">News Agent</a> ·
@@ -18,6 +19,8 @@
 I turn problems I encounter in daily life into reliable, AI-powered tools. I like the part after the demo works: deciding what matters, handling failure, operating the system, and learning from real use.
 
 AI is leverage, not the product. I care about what happens when a provider is slow, a scheduled job is delayed, state must survive another run, or an automated message is not useful enough to keep.
+
+**[See the systems, real product output, and operating evidence →](https://yili-builder.yilikimi001.chatgpt.site/#work)**
 
 ## Featured project · Crypto Flash
 
@@ -57,4 +60,5 @@ I work best when I can help define the problem, challenge assumptions, and own d
 
 I am open to early-stage product collaborations, technical co-founder conversations, and backend engineering opportunities with people who care about shipping useful software.
 
-**Contact:** [yili.code@gmail.com](mailto:yili.code@gmail.com)
+- **Portfolio:** [yili-builder.yilikimi001.chatgpt.site](https://yili-builder.yilikimi001.chatgpt.site)
+- **Contact:** [yili.code@gmail.com](mailto:yili.code@gmail.com)
